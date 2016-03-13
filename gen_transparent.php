@@ -1,4 +1,5 @@
 <?php
+// Generate transparent background
 $image = imagecreatetruecolor(700, 300);
 imagealphablending($image, true);
 imagesavealpha($image, true);
